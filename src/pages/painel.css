@@ -1,0 +1,36 @@
+.container_flex  {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 40%;
+    position: absolute;
+    left: 43%;
+
+
+}
+
+.container_flex div {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+   
+    border: 1 solid #ccc;
+
+}
+
+.box1 {
+    border-bottom: none;
+}
+.box1 h1 {
+    font-size:2em;
+    font-weight: bold;
+    color: darkblue;
+}
+  .item {
+    width: 50%;
+    border-left: 1px solid black;
+    margin: 9px;
+    border-left: none;
+  }

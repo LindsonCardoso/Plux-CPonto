@@ -1,0 +1,8 @@
+.container{
+    flex: 4;
+}
+
+.containerWidgets{
+    display: flex;
+    margin: 20px;
+}

@@ -1,0 +1,14 @@
+.home{
+    flex: 4;
+}
+
+.homeWidgets{
+    display: flex;
+    margin: 20px;
+}
+
+.widgetPonto{
+
+    padding: 5px 20px;
+
+}

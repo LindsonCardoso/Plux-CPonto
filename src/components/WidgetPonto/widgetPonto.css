@@ -1,0 +1,165 @@
+.featured {
+flex: 2;
+-webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+padding: 10px;
+
+}
+.top {
+display: flex;
+align-items: center;
+justify-content: center;
+color: gray;
+}
+
+.title {
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: var(--title);
+}
+
+
+.divContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.clock {
+    padding: 17px; 
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-top: 50px;
+  }
+
+
+  .divModal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+
+  }
+  
+  .divModal button {
+   
+    background: var(--sub-primary);
+    border-radius: 40px;
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    color: aliceblue;
+
+  }
+
+  .divModal button:hover{
+    background: var(--primary);
+    color: aliceblue;
+  }
+
+
+  .newUserForm {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;  
+  }
+
+
+  .newPointForm {
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .newPointForm button{ 
+    background: var(--red);
+    border-radius: 40px;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    color: aliceblue;
+    padding: 0px 12px;
+
+    
+  }
+
+  .newTitle {
+
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: 700;
+
+  }
+
+  .newPointItem {
+    width: 90px;
+    display: grid;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .newPointItem > label {
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    color:var(--text);
+  }
+
+  .newPointItem > input {
+    height: 30px;
+    width: 150%;
+    padding: 10px;
+    border: 1px solid var(--text);
+    border-radius: 5px;
+  }            
+
+  .newPointGender > input {
+    margin-top: 15px;
+  }
+
+.newPointButton{
+
+color: white;
+
+font-weight: 600;
+border-radius: 10px;
+
+cursor: pointer;
+
+background-color: aqua;
+border-radius: 40px;
+width: 150px;
+  height: auto;
+  padding: 10px;
+  
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+  
+
+
+  
+  
+
+
+  
+
+
+  
+ 
+  
+  
+
+  

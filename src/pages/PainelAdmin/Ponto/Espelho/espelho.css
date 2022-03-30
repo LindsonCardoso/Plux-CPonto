@@ -1,0 +1,8 @@
+.espelho{
+    flex: 4;
+}
+
+.espelhoWidgets{
+    display: flex;
+    margin: 20px;
+}
